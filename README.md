@@ -1,6 +1,5 @@
 # laravel-yearly
 
-[![Latest Stable Version](https://poser.pugx.org/busayo/laravel-yearly/version.svg)](https://packagist.org/packages/busayo/laravel-yearly)
 [![Latest Stable Version](https://poser.pugx.org/busayo/laravel-yearly/v/stable.svg)](https://packagist.org/packages/busayo/laravel-yearly)
 [![Latest Unstable Version](https://poser.pugx.org/busayo/laravel-yearly/v/unstable.svg)](https://packagist.org/packages/busayo/laravel-yearly)
 [![License](https://poser.pugx.org/busayo/laravel-yearly/license.svg)](LICENSE.md)
