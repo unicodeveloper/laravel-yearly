@@ -18,6 +18,6 @@ checks:
         fix_doc_comments: true
 
 tools:
-    external_code_coverage:
+    external_code_coverage: true
         timeout: 600
         runs: 3
