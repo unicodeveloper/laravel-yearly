@@ -22,7 +22,7 @@ $ composer require busayo/laravel-yearly
 Another alternative is to simply add the following line to the require block of your `composer.json` file.
 
 ```
-"busayo/laravel-yearly": "1.0.0"
+"busayo/laravel-yearly": "1.0.*"
 ```
 
 Then run `composer install` or `composer update` to download it and have the autoloader updated.
