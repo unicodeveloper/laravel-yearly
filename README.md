@@ -6,15 +6,26 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/laravel-yearly.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/laravel-yearly)
 [![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)](https://packagist.org/packages/busayo/laravel-yearly)
 
-This package helps you to keep your copyright year up-to-date. Simple but insanely useful.
+> Laravel 5 Package to help keep ypur copyright year up-to-date. Simple but insanely useful.
 
 ## Install
+
+[PHP](https://php.net) 5.3+ or [HHVM](http://hhvm.com) 3.3+, and [Composer](https://getcomposer.org) are required.
 
 Via Composer
 
 ``` bash
 $ composer require busayo/laravel-yearly
 ```
+
+Another alternative is to simply add the following line to the require block of your `composer.json` file.
+
+```
+"busayo/laravel-yearly": "1.0.0"
+```
+
+Then run `composer install` or `composer update` to download it and have the autoloader updated.
+
 Add this to your providers array in `config/app.php`
 
 ```php
