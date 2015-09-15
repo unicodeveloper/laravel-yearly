@@ -1,20 +1,8 @@
 # Changelog
 
-All Notable changes to `laravel-yearly` will be documented in this file
+### 1.0.1
+- Added helper functions
+- Bump up php version to 5.5+
 
-## NEXT - YYYY-MM-DD
-
-### Added
-- Nothing
-
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+### 1.0.0
+- First Stable release
