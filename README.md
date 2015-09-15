@@ -46,9 +46,14 @@ This package also comes with a facade
 
 ## Usage
 
+Use it in your views, preferably in your footer section like this:
+
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+
+    {{ Yearly::current_year() }}  // returns 2015 ( This is the current year presently )
+
+    {{ Yearly::year_range(2002) }} // returns 2002 - 2015
+
 ```
 
 ## Change log
