@@ -3,7 +3,8 @@
     "description": "Provides helper function to get the current year and a range of years",
     "keywords": [
         "busayo",
-        "laravel-yearly"
+        "laravel-yearly",
+        "laravel"
     ],
     "homepage": "https://github.com/busayo/laravel-yearly",
     "license": "MIT",
