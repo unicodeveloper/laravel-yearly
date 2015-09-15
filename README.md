@@ -1,15 +1,13 @@
 # laravel-yearly
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Latest Version on Packagist](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)](https://github.com/busayo/laravel-yearly/releases)
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+[![Build Status](https://img.shields.io/travis/busayo/laravel-yearly.svg)](https://travis-ci.org/spatie/laravel-yearly)
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Quality Score](https://img.shields.io/scrutinizer/g/busayo/laravel-yearly.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/laravel-yearly)
+[![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)(https://packagist.org/packages/busayo/laravel-yearly)
 
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package helps you to keep your copyright year up-to-date. Simple but insanely useful.
 
 ## Install
 
