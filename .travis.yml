@@ -15,3 +15,6 @@ matrix:
 install: travis_retry composer install --no-interaction --prefer-source
 
 script: vendor/bin/phpunit
+
+notifications:
+  slack: red-creek:5lI8ybvl6YTcCNPosh4TE13h
