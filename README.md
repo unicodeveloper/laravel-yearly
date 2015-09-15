@@ -6,7 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/laravel-yearly.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/laravel-yearly)
 [![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)](https://packagist.org/packages/busayo/laravel-yearly)
 
-> Laravel 5 Package to help keep ypur copyright year up-to-date. Simple but insanely useful.
+> Laravel 5 Package to help keep your copyright year up-to-date. Simple but insanely useful.
 
 ## Install
 
@@ -74,6 +74,12 @@ You can run the tests with:
 
 ```bash
 vendor/bin/phpunit run
+```
+
+Alternatively, you can run the tests like so:
+
+```bash
+composer test
 ```
 
 ## Contributing
