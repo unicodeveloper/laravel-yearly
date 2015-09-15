@@ -2,6 +2,8 @@
 
 namespace Busayo\Yearly;
 
+use InvalidArgumentException;
+
 class YearAfterYear
 {
     /**
@@ -18,11 +20,22 @@ class YearAfterYear
      * @param  integer $start_year
      * @param  string $separator
      * @return string
+     * @throws \InvalidArgumentException
      */
-    public function current_year_range($start_year, $separator = ' - ')
+    public function year_range($start_year = 0, $separator = ' - ')
     {
-        ($start_year == $this->current_year()) ? $year_range = $this->current_year() : $year_range =  $start_year . $separator . $this->current_year();
+        if(! is_numeric($start_year)){
+            throw new InvalidArgumentException("Invalid Argument Format passed . It should be a number");
+        }
 
-        return $year_range;
+        if( $start_year < 0){
+            throw new InvalidArgumentException("Invalid Argument passed {$start_year} . It shouldn't be a negative value");
+        }
+
+        if( $start_year == 0){
+            return $this->current_year();
+        }
+
+        return ($start_year == $this->current_year()) ? $this->current_year() : $start_year . $separator . $this->current_year();
     }
 }
