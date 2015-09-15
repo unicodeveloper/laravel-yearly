@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/busayo/laravel-yearly.svg)](https://travis-ci.org/spatie/laravel-yearly)
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/laravel-yearly.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/laravel-yearly)
-[![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)(https://packagist.org/packages/busayo/laravel-yearly)
+[![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)](https://packagist.org/packages/busayo/laravel-yearly)
 
 This package helps you to keep your copyright year up-to-date. Simple but insanely useful.
 
