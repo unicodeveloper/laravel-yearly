@@ -34,7 +34,8 @@ class YearAfterYearTest extends \PHPUnit_Framework_TestCase
     /**
      *  Create an instance of Yearly before running each tests
      */
-    public function setUp(){
+    public function setUp()
+    {
         $this->instantiateYearly();
     }
 
