@@ -46,7 +46,7 @@ If you discover any security related issues, please email prosperotemuyiwa@gmail
 
 ## Credits
 
-- [Prosper Otemuyiwa][https://twitter.com/unicodeveloper]
+- [Prosper Otemuyiwa](https://twitter.com/unicodeveloper)
 
 ## License
 
