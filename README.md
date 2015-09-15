@@ -1,6 +1,6 @@
 # laravel-yearly
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/dt/busayo/laravel-yearly.svg?style=flat-square)](https://github.com/busayo/laravel-yearly/releases)
+[![Latest Version on Packagist](https://img.shields.io/github/release/busayo/laravel-yearly.svg?style=flat-square)](https://github.com/busayo/laravel-yearly/releases)
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/busayo/laravel-yearly.svg)](https://travis-ci.org/spatie/laravel-yearly)
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/laravel-yearly.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/laravel-yearly)
