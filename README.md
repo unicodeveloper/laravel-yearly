@@ -18,6 +18,31 @@ Via Composer
 ``` bash
 $ composer require busayo/laravel-yearly
 ```
+Add this to your providers array in `config/app.php`
+
+```php
+
+// Laravel 5: config/app.php
+
+'providers' => [
+    ...
+    'Busayo\Yearly\YearlyServiceProvider',
+    ...
+];
+```
+
+This package also comes with a facade
+
+```php
+
+// Laravel 5: config/app.php
+
+'aliases' => [
+    ...
+    'Yearly' => 'Busayo\Yearly\YearlyFacade',
+    ...
+]
+```
 
 ## Usage
 
@@ -32,17 +57,15 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Testing
 
-``` bash
-$ composer test
+You can run the tests with:
+
+```bash
+vendor/bin/phpunit run
 ```
 
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please email prosperotemuyiwa@gmail.com instead of using the issue tracker.
 
 ## Credits
 

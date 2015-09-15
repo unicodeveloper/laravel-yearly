@@ -24,8 +24,10 @@ We accept contributions via Pull Requests on [Github](https://github.com/busayo/
 
 ## Running Tests
 
-``` bash
-$ composer test
+You can run the tests with:
+
+```bash
+vendor/bin/phpunit run
 ```
 
 
