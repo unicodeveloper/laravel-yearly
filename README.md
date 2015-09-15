@@ -10,7 +10,7 @@
 
 ## Install
 
-[PHP](https://php.net) 5.3+ or [HHVM](http://hhvm.com) 3.3+, and [Composer](https://getcomposer.org) are required.
+[PHP](https://php.net) 5.5+ or [HHVM](http://hhvm.com) 3.3+, and [Composer](https://getcomposer.org) are required.
 
 Via Composer
 
