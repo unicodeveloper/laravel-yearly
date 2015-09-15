@@ -59,11 +59,24 @@ Use it in your views, preferably in your footer section like this:
 
 ``` php
 
+{{ current_year() }}  // returns 2015 ( This is the current year presently )
+
+{{ year_range(2002) }} // returns 2002 - 2015
+
+```
+
+For those that love Facades immensely, I have provide the cake for you :smile: :
+
+Use it in your views, preferably in your footer section like this:
+
+``` php
+
 {{ Yearly::current_year() }}  // returns 2015 ( This is the current year presently )
 
 {{ Yearly::year_range(2002) }} // returns 2002 - 2015
 
 ```
+
 
 ## Change log
 
