@@ -4,7 +4,11 @@
     "keywords": [
         "busayo",
         "laravel-yearly",
-        "laravel"
+        "laravel",
+        "copyright",
+        "footer",
+        "year",
+        "yearAfteryear"
     ],
     "homepage": "https://github.com/busayo/laravel-yearly",
     "license": "MIT",
