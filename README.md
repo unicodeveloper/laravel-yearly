@@ -65,9 +65,9 @@ Use it in your views, preferably in your footer section like this:
 
 ```
 
-For those that love Facades immensely, I have provide the cake for you :smile: :
 
-Use it in your views, preferably in your footer section like this:
+For those that love Facades immensely, I have provide the cake for you :smile: like so:
+
 
 ``` php
 
