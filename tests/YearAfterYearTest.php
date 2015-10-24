@@ -1,8 +1,8 @@
 <?php
 
-namespace Busayo\Yearly\Test;
+namespace Unicodeveloper\Yearly\Test;
 
-use Busayo\Yearly\YearAfterYear as Yearly;
+use Unicodeveloper\Yearly\YearAfterYear as Yearly;
 
 class YearAfterYearTest extends \PHPUnit_Framework_TestCase
 {

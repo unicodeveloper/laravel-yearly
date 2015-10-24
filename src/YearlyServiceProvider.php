@@ -1,6 +1,6 @@
 <?php
 
-namespace Busayo\Yearly;
+namespace Unicodeveloper\Yearly;
 
 use Illuminate\Support\ServiceProvider;
 
