@@ -1,5 +1,5 @@
 {
-    "name": "busayo/laravel-yearly",
+    "name": "unicodeveloper/laravel-yearly",
     "description": "Provides helper function to get the current year and a range of years",
     "keywords": [
         "busayo",
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Busayo\\Yearly\\": "src"
+            "Unicodeveloper\\Yearly\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -37,7 +37,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Busayo\\Yearly\\Test\\": "tests"
+            "Unicodeveloper\\Yearly\\Test\\": "tests"
         }
     },
     "scripts": {

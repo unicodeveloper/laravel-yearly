@@ -15,6 +15,8 @@ class YearAfterYear
         return date("Y");
     }
 
+
+
     /**
      *  returns a range of years when provided a start year
      * @param  integer $start_year
@@ -24,6 +26,7 @@ class YearAfterYear
      */
     public function year_range($start_year = 0, $separator = ' - ')
     {
+
         if(! is_numeric($start_year)){
             throw new InvalidArgumentException("Invalid Argument Format passed . It should be a number");
         }
@@ -36,6 +39,6 @@ class YearAfterYear
             return $this->current_year();
         }
 
-        return ($start_year == $this->current_year()) ? $this->current_year() : $start_year . $separator . $this->current_year();
+      return ($start_year == $this->current_year()) ? $this->current_year() : $start_year . $separator . $this->current_year();
     }
 }
