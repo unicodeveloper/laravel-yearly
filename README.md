@@ -16,13 +16,13 @@
 Via Composer
 
 ``` bash
-$ composer require busayo/laravel-yearly
+$ composer require unicodeveloper/laravel-yearly
 ```
 
 Another alternative is to simply add the following line to the require block of your `composer.json` file.
 
 ```
-"busayo/laravel-yearly": "1.0.*"
+"unicodeveloper/laravel-yearly": "1.0.*"
 ```
 
 Then run `composer install` or `composer update` to download it and have the autoloader updated.
@@ -35,7 +35,7 @@ Add this to your providers array in `config/app.php`
 
 'providers' => [
     ...
-    'Busayo\Yearly\YearlyServiceProvider',
+    'Unicodeveloper\Yearly\YearlyServiceProvider',
     ...
 ];
 ```
@@ -48,7 +48,7 @@ This package also comes with a facade
 
 'aliases' => [
     ...
-    'Yearly' => 'Busayo\Yearly\YearlyFacade',
+    'Yearly' => 'Unicodeveloper\Yearly\YearlyFacade',
     ...
 ]
 ```
