@@ -22,7 +22,7 @@ $ composer require unicodeveloper/laravel-yearly
 Another alternative is to simply add the following line to the require block of your `composer.json` file.
 
 ```
-"unicodeveloper/laravel-yearly": "1.0.*"
+"unicodeveloper/laravel-yearly": "1.1.*"
 ```
 
 Then run `composer install` or `composer update` to download it and have the autoloader updated.
