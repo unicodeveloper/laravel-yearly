@@ -2,7 +2,7 @@
     "name": "unicodeveloper/laravel-yearly",
     "description": "Provides helper function to get the current year and a range of years",
     "keywords": [
-        "busayo",
+        "unicodeveloper",
         "laravel-yearly",
         "laravel",
         "copyright",
@@ -10,11 +10,11 @@
         "year",
         "yearAfteryear"
     ],
-    "homepage": "https://github.com/busayo/laravel-yearly",
+    "homepage": "https://github.com/unicodeveloper/laravel-yearly",
     "license": "MIT",
     "authors": [
         {
-            "name": "busayo",
+            "name": "unicodeveloper",
             "email": "prosperotemuyiwa@gmail.com",
             "homepage": "http://goodheads.io",
             "role": "Developer"
