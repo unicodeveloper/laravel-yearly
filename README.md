@@ -16,7 +16,7 @@
 Via Composer
 
 ``` bash
-$ composer require unicodeveloper/laravel-yearly
+$ composer require busayo/laravel-yearly
 ```
 
 Another alternative is to simply add the following line to the require block of your `composer.json` file.
